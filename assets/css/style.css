@@ -640,6 +640,8 @@ html,body {
 .photo_of_me {
 	margin-right: 10px;
 	margin-bottom: 10px;
+	width: 100%;
+	height: auto;
 }
 
 /*.name, .breadcrumb {
@@ -656,10 +658,16 @@ textarea {
 	height: 150px;
 }
 
+.icon {
+	text-align: center;
+}
+
 .hangman, .trivia-game, .rock-paper-scissors, .rpg-game, .widget {
+	float: none;
+	margin-right: auto;
+	margin-left: auto;
 	padding-top: 83.5px;
 	padding-bottom: 20px;
-	margin-left: 10px;	
 	margin-bottom: 10px;
 	width: 260px;
 }
